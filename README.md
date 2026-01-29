@@ -5,17 +5,17 @@
 
 This is the backend server for the Real-time Chat application, built with **NestJS** and **Socket.io**. It handles real-time bidirectional communication between the server and connected clients, managing user sessions and message history in memory.
 
-## 🛠 Technologies & Libraries
+## Technologies & Libraries
 
 The project relies on a robust stack to ensure performance and scalability:
 
 - **[NestJS](https://nestjs.com/)**: A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
 - **[Socket.io](https://socket.io/)**: Enables real-time, bidirectional and event-based communication.
 - **[TypeScript](https://www.typescriptlang.org/)**: Strongly typed programming language that builds on JavaScript.
-- **[A UUID](https://github.com/uuidjs/uuid)**: For generating unique identifiers for users and messages.
+- **[UUID](https://github.com/uuidjs/uuid)**: For generating unique identifiers for users and messages.
 - **[Class Validator](https://github.com/typestack/class-validator) & [Class Transformer](https://github.com/typestack/class-transformer)**: For validating incoming data transfer objects (DTOs).
 
-## 📂 Project Structure
+## Project Structure
 
  The codebase is organized into modules, following NestJS best practices:
 
@@ -31,7 +31,7 @@ src/
 └── main.ts                 # Entry Point (CORS & Validation Setup)
 ```
 
-## 🧠 Application Flow & Logic
+## Application Flow & Logic
 
 ### 1. Connection Handling
 - The server listens for WebSocket connections on the configured port.
@@ -63,7 +63,7 @@ src/
 | `new_message` | `Message` | Broadcasted when a message is successfully sent. |
 | `user_disconected`| `User` | Broadcasted when a user disconnects. |
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to run the backend locally.
 
@@ -107,6 +107,6 @@ npm run test
 npm run test:e2e
 ```
 
-## 📄 License
+## License
 
 This project is [MIT licensed](LICENSE) (NestJS default).
