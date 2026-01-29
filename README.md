@@ -74,9 +74,9 @@ Follow these steps to run the backend locally.
 ### Installation
 
 1. **Clone the repository** (if you haven't already)
-2. **Navigate to the backend directory**
+2. **Navigate to the project directory**
    ```bash
-   cd backend
+   cd chat-realtime-back
    ```
 3. **Install dependencies**
    ```bash
